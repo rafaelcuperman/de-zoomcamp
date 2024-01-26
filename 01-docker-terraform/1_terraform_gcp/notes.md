@@ -12,6 +12,11 @@ gcloud config configurations list
 ### Activate gcloud configuration
 gcloud config configurations activate [configuration_name]
 
+
+
+### Terraform main file
+main.tf
+
 ### Format .tf file
 terraform fmt
 
@@ -26,3 +31,6 @@ terraform apply
 
 ### Turn off the resources (de-activate terraform plan)
 terraform destroy
+
+### Terraform variables file
+variables.tf
