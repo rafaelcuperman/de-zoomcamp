@@ -38,3 +38,6 @@ For example, the execution date of the pipeline can be accessed with `kwargs.get
 
 ### Backfills
 Can be used to reconstruct lost data. To create backfill functionality. This can be done with the Backfill menu on the left tab of a pipeline.
+
+### Homework 
+The homework pipeline can be found in the pipeline called "Homework"

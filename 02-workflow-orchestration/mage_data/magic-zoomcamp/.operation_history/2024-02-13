@@ -1,3 +1,4 @@
 {"operation": "create", "resource": {"type": "pipeline", "uuid": "eccentric_fog"}, "timestamp": 1707824403, "user": null}
 {"operation": "create", "resource": {"type": "pipeline", "uuid": "sweet_paper"}, "timestamp": 1707826814, "user": null}
 {"operation": "create", "resource": {"type": "pipeline", "uuid": "load_to_gcp_copy"}, "timestamp": 1707828428, "user": null}
+{"operation": "create", "resource": {"type": "pipeline", "uuid": "elven_wizard"}, "timestamp": 1707864421, "user": null}
