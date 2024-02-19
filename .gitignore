@@ -58,6 +58,6 @@ ENV/
 env.bak/
 venv.bak/
 
-# Week 2
-#02-workflow-orchestration/mage_data/
-#02-workflow-orchestration/magic-zoomcamp/
+# Workshop 1. DLT
+*.duckdb
+*.duckdb.*
