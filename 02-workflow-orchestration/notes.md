@@ -24,7 +24,7 @@ volumes:
 In this case, all the files will be mounted in the directory `/home/src/`
 
 ### GCP credentials
-The credentials should be specified in the io_config.yaml file in the variable `GOOGLE_SERVICE_ACC_KEY_FILEPATH: "file.json"`. The json file will be located in `/home/src/`, as it was, as it was mounted in that directory.
+The credentials should be specified in the io_config.yaml file in the variable `GOOGLE_SERVICE_ACC_KEY_FILEPATH: "file.json"`. The json file will be located in `/home/src/`, as it was mounted in that directory.
 
 ### Schedule workflows
 To schedule workflow in Mage, go to Triggers on the left menu and create a trigger.
