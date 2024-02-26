@@ -21,4 +21,4 @@ After finished, the bucket and dataset can be destroyed by typing
 ### Load datasets to BQ
 The file `load_datasets.ipynb` can be used to load the datasets into GCP. However, this will only be used to load the FHV 2019 data to GCS and then BQ using an external table.
 
-The Yellow and Green taxi data files are too big (specially Yellow), so it was taking too long to upload it via python. So, instead, I will follow the hack presented [here](https://www.youtube.com/watch?v=Mork172sK_c&t=22s&ab_channel=Victoria). The SQL statements to do so can be found in the file `create_taxi_data_bq.sql`. The last part of that file consists of the creation of the external table for the FHV 2019 data.
+The Yellow and Green taxi data files are too big (specially Yellow), so it was taking too long to upload it via python. So, instead, I will follow the hack presented [here](https://www.youtube.com/watch?v=Mork172sK_c&t=22s&ab_channel=Victoria). The SQL statements to do so can be found in the file `create_taxi_data_bq.sql`. The last part of that file consists of the creation of the external table for the FHV 2019 data. 
