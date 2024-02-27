@@ -1,8 +1,8 @@
 keys/
 *.json
 .ipynb_checkpoints
-*.csv
 01-docker-terraform/2_docker_sql/ny_taxi_postgres_data/
+*.csv
 *.csv.gz
 
 01-docker-terraform/1_terraform_gcp/.terraform/
@@ -48,6 +48,7 @@ terraform.rcs
 *.terraform.lock.hcl
 01-docker-terraform/homework/taxi_data/
 
+
 # Environments
 .env
 .venv
@@ -61,3 +62,12 @@ venv.bak/
 # Workshop 1. DLT
 *.duckdb
 *.duckdb.*
+
+# Week 4. DBT
+# Default .gitignore content added by dbt Cloud# you shouldn't commit these into source control
+# these are the default directory names, adjust/add to fit your needs
+target/
+dbt_packages/
+logs/
+!**/seeds/taxi_zone_lookup.csv
+# end dbt Cloud content
