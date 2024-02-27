@@ -61,4 +61,5 @@ A development-deployment workflow will look like this:
 4. Run the new models in the productio environment using the main branch
 5. Schedule the models
 
+By default a DBT project comes with a development environment that should be worked on a different Git branch than main. To create the depolyment strategy, we must first create a deployment environment in DBT. Usually this environment targets the main branch in Git, but, if needed, we can choose another branch.
 
