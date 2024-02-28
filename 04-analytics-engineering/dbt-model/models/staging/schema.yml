@@ -8,6 +8,7 @@ sources:
     tables:
       - name: green_tripdata
       - name: yellow_tripdata
+      - name: fhv_tripdata
 
 models:
     - name: stg_green_tripdata
@@ -192,5 +193,25 @@ models:
             description: Total amount of all tolls paid in trip.
           - name: Total_amount 
             description: The total amount charged to passengers. Does not include cash tips.
+    
+    - name: stg_fhv_data
+      description: > 
+        Trips made with For Hire Vehicles in NY
+      columns:
+          - name: dispatching_base_num
+            description: Dispatching number
+          - name: pickup_datetime 
+            description: The date and time when the meter was engaged.
+          - name: dropoff_datetime 
+            description: The date and time when the meter was disengaged.
+          - name: Pickup_locationid
+            description: locationid where the meter was engaged.
+          - name: dropoff_locationid 
+            description: locationid where the meter was disengaged.
+          - name: sr_flag
+            description: SR Flag
+          - name: affiliated_base_number
+            description: Affiliated base number
+
 
       
