@@ -53,6 +53,9 @@ The tests are defined on a column in the schema.yml file.
 
 To run the tests, type `dbt test`. 
 
+#### Documentation
+To generate documentation, type `dbt docs generate`. 
+
 #### Deployment
 A development-deployment workflow will look like this:
 1. Develop in a separate user branch
