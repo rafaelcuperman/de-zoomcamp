@@ -194,7 +194,7 @@ models:
           - name: Total_amount 
             description: The total amount charged to passengers. Does not include cash tips.
     
-    - name: stg_fhv_data
+    - name: fhv_tripdata
       description: > 
         Trips made with For Hire Vehicles in NY
       columns:
