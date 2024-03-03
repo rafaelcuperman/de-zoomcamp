@@ -1,0 +1,2 @@
+# Week 5. Batch. Spark
+The first thing to do is install Spark and Pyspark. To do so, follow the instructions under the folder [setup](setup/) to install Spark in the selected operating system (MacOS, Windows, or Linux). Then use [pyspark.md](setup/pyspark.md) to configure pyspark.
