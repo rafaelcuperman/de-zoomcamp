@@ -71,3 +71,13 @@ dbt_packages/
 logs/
 !**/seeds/taxi_zone_lookup.csv
 # end dbt Cloud content
+
+# Week 5
+05-batch/code/fhvhv/*
+05-batch/code/data/*
+05-batch/code/tmp/*
+05-batch/code/tmp/*
+05-batch/code/zones/*
+05-batch/code/lib/*
+
+05-batch/homework/fhv/*
